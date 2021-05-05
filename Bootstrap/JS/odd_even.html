@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function check(){
+			var n= parseInt(document.getElementById('num').value);
+			if(n%2==0)  document.getElementById('res').value="even";
+			else  document.getElementById('res').value="odd";
+		}
+	</script>
+</head>
+<body>
+	<form>
+		<div>Enter any number <input type="number" id="num"></div>
+		<div><input type="button" value="submit" onclick="check()"></div>
+		<div>Output<input type="text"  id="res"></div>
+	</form>
+</body>
+</html>
